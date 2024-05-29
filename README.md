@@ -39,16 +39,15 @@ The main service handles user authentication and authorization using JWT, while 
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/jwt-auth-public-api.git
-   cd jwt-auth-public-api
    
 2. Install dependencies for both the main service and the public API microservice:
+
+   For main service & public api:
     ```sh
-    cd main-service
-  
-    npm install
-  
+    cd loginmicro
+    npm install 
+
     cd ../public-api
-  
     npm install
 
 4. Set up environment variables: 
@@ -65,11 +64,11 @@ The main service handles user authentication and authorization using JWT, while 
  1. Start the main service:
 
     ```sh
-    cd main-service
+    cd loginmicro
     npm run dev
 
  2. Start the public API microservice:
 
     ```sh
-    cd public-api
+    cd ../publicapi
     npm run dev
