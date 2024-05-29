@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 
 connectDB();
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.use('/api',authRoute);
 app.use("/api/candidate",candidateRoute);
 
