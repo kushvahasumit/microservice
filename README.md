@@ -38,7 +38,7 @@ The main service handles user authentication and authorization using JWT, while 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/jwt-auth-public-api.git
+   git clone https://github.com/kushvahasumit/microservice.git
    
 2. Install dependencies for both the main service and the public API microservice:
 
